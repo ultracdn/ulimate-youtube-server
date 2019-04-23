@@ -38,10 +38,7 @@ def apply_caching(response):
 @app.route("/")
 
 def go():
-
-    
-    '''
-
+    return "Offline..."
 @app.route('/static/<path:path>')
 
 def get_resource(path):  # pragma: no cover
