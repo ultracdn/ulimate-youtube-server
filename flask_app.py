@@ -39,16 +39,7 @@ def apply_caching(response):
 
 def go():
 
-    return '''
-
-    <h1>Welcome to the ulimate youtube server</h1>
-    <h2>Links below</h2>
-    <a href="/youtubedl">Youtube downloader</a>
-    <a href="/yotuube.io">Unblock the youtube</a>
-    <z href="/cast">Cast youtube to chromecasts without youtube red(also casts to google home)</a>
-    <p>
-    Project by javaarchive on github!!
-    </p>
+    
     '''
 
 @app.route('/static/<path:path>')
