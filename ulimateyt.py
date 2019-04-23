@@ -411,4 +411,6 @@ Your chromecasts an be wirelessly controlled here.
 
 
 '''
-app.run(host="0.0.0.0",port=80)
+import os
+port1 = int(os.environ['PORT'])
+app.run(host="0.0.0.0",port=port1)
