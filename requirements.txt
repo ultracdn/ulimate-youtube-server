@@ -2,3 +2,4 @@ flask
 pafy
 gunicorn
 flask
+youtube-dl
