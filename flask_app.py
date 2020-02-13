@@ -38,7 +38,7 @@ def apply_caching(response):
 @app.route("/")
 
 def go():
-    return "Offline..."
+    return "Offline...hide and seek...reason and rhyme...euphoria"
 @app.route('/static/<path:path>')
 
 def get_resource(path):  # pragma: no cover
