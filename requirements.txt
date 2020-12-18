@@ -1,4 +1,4 @@
-youtube-dl
-pafy
+youtube-dl==2020.12.14
+pafy==0.5.5
 gunicorn
 flask
